@@ -11,10 +11,12 @@ url('/assets/font/hobo/HoboStd.eot?#iefix') format('embedded-opentype');
 }
 
 $font-family-sans-serif: customFont;
+$font-family-base: $font-family-sans-serif !default;
+
 $primary: #A0819D;
 
 .bg-body {
-  background-image :url(/klea/bg.png);
+  background-image :url("/klea/bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center bottom;
