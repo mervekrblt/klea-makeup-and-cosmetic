@@ -1,34 +1,27 @@
-// Override Bootstrap's Sass default variables
-//
-// Nearly all variables in Bootstrap are written with the `!default` flag.
-// This allows you to override the default values of those variables before
-// you import Bootstrap's source Sass files.
-//
-// Overriding the default variable values is the best way to customize your
-// CSS without writing _new_ styles. For example, change you can either change
-// `$body-color` or write more CSS that override's Bootstrap's CSS like so:
-// `body { color: red; }`.
+@font-face {
+  font-family: 'customFont';
+  src: url('/assets/font/hobo/HoboStd.eot');
+  src: url('/assets/font/hobo/HoboStd.woff2') format('woff2'),
+url('/assets/font/hobo/HoboStd.woff') format('woff'),
+url('/assets/font/hobo/HoboStd.ttf') format('truetype'),
+url('/assets/font/hobo/HoboStd.svg#customFont') format('svg'),
+url('/assets/font/hobo/HoboStd.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
 
+$font-family-sans-serif: customFont;
+$primary: #A0819D;
 
-//
-// Bring in Bootstrap
-//
-
-// Option 1
-//
-// Import all of Bootstrap's CSS
-
-// @import "bootstrap/scss/bootstrap";
-
-// Option 2
-//
-// Place variable overrides first, then import just the styles you need. Note that some stylesheets are required no matter what.
-$primary: #45ADA8;
-
-// Custom.scss
-// Option A: Include all of Bootstrap
-
-// Include any default variable overrides here (though functions won't be available)
+.bg-body {
+  background-image :url(/klea/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  width: 100%;
+  height: 90%;
+  position: absolute;
+}
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 

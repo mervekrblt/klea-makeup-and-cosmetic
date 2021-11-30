@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'HoboStd';
+  src: url('HoboStd.eot');
+  src: url('HoboStd.eot?#iefix') format('embedded-opentype'),
+       url('HoboStd.svg#HoboStd') format('svg'),
+       url('HoboStd.ttf') format('truetype'),
+       url('HoboStd.woff') format('woff'),
+       url('HoboStd.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
