@@ -1,12 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="../sass/main.css">
+
+  <title>KLEA MAKE UP AND COSMETIC</title>
 </head>
+
 <body>
-  <p>Home</p>
+  
+  <div class="container">
+    <!-- Navbar start -->
+    <nav class="fixed-bottom sticky-sm-top navbar border-top">
+      <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand d-none d-sm-inline " href="#">
+          <img src="../klea/logo.png" alt="" width="50">
+        </a>
+        <!-- Logo end -->
+
+        <!-- Navbar links start -->
+        <div class="">
+          <img src="../klea/icons/filled_home.svg" alt="">
+          <span class="text-center d-none d-sm-inline">Home</span>
+        </div>
+        <div class="">
+          <img src="../klea/icons/nav_heart.svg" alt="">
+          <span class="text-center d-none d-sm-inline">Favorites</span>
+        </div>
+        <div class="">
+          <img src="../klea/icons/nav_shopping-bag.svg" alt="">
+          <span class="text-center d-none d-sm-inline">Basket</span>
+        </div>
+        <div class="">
+          <img src="../klea/icons/nav_settings.svg" alt="">
+          <span class="text-center d-none d-sm-inline">Settings</span>
+        </div>
+        <!-- Navbar links end -->
+      </div>
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Big image start -->
+    <div class="card text-white d-sm-none mt-4 text-center">
+      <img class="card-img" src="../klea/imgs/1.png"  alt="Card image">
+      <div class="card-img-overlay d-flex flex-column justify-content-around">
+        <h5 class="card-title">Black Friday offer</h5>
+        <p class="card-text">25% off for all items</p>
+        <button class="btn w-100 text-light border">Shop now</button>
+      </div>
+    </div>
+    <!-- Big image end -->
+    
+  </div>
+
+
+
+
+  <script src="../assets/js/bootstrap.bundle.js"></script>
 </body>
+
 </html>
