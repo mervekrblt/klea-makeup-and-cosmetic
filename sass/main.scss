@@ -15,6 +15,8 @@ url('/assets/font/hobo/HoboStd.eot?#iefix') format('embedded-opentype');
 
 $primary: #A0819D;
 $secondary: #764B72;
+$input-btn-padding-x-lg: 3rem;
+$input-placeholder-color: white;
 
 .bg-body {
   background-image :url("/klea/bg.png");
@@ -28,6 +30,15 @@ $secondary: #764B72;
 
 .fixed-bottom {
   height: 70px;
+}
+
+.custom-icon {
+  top: 33px;
+  left: 10px;
+}
+
+.custom-placeholder::placeholder {
+  color: black !important;
 }
 
 

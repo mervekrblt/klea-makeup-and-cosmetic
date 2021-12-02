@@ -20,6 +20,27 @@
   height: 70px;
 }
 
+.custom-icon {
+  top: 33px;
+  left: 10px;
+}
+
+.custom-placeholder::-webkit-input-placeholder {
+  color: black !important;
+}
+
+.custom-placeholder:-ms-input-placeholder {
+  color: black !important;
+}
+
+.custom-placeholder::-ms-input-placeholder {
+  color: black !important;
+}
+
+.custom-placeholder::placeholder {
+  color: black !important;
+}
+
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -2327,22 +2348,22 @@ progress {
 }
 
 .form-control::-webkit-input-placeholder {
-  color: #6c757d;
+  color: white;
   opacity: 1;
 }
 
 .form-control:-ms-input-placeholder {
-  color: #6c757d;
+  color: white;
   opacity: 1;
 }
 
 .form-control::-ms-input-placeholder {
-  color: #6c757d;
+  color: white;
   opacity: 1;
 }
 
 .form-control::placeholder {
-  color: #6c757d;
+  color: white;
   opacity: 1;
 }
 
@@ -2451,23 +2472,23 @@ progress {
 
 .form-control-lg {
   min-height: calc(1.5em + 1rem + 2px);
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 3rem;
   font-size: 1.25rem;
   border-radius: 0.3rem;
 }
 
 .form-control-lg::file-selector-button {
-  padding: 0.5rem 1rem;
-  margin: -0.5rem -1rem;
-  -webkit-margin-end: 1rem;
-          margin-inline-end: 1rem;
+  padding: 0.5rem 3rem;
+  margin: -0.5rem -3rem;
+  -webkit-margin-end: 3rem;
+          margin-inline-end: 3rem;
 }
 
 .form-control-lg::-webkit-file-upload-button {
-  padding: 0.5rem 1rem;
-  margin: -0.5rem -1rem;
-  -webkit-margin-end: 1rem;
-          margin-inline-end: 1rem;
+  padding: 0.5rem 3rem;
+  margin: -0.5rem -3rem;
+  -webkit-margin-end: 3rem;
+          margin-inline-end: 3rem;
 }
 
 textarea.form-control {
@@ -2566,7 +2587,7 @@ textarea.form-control-lg {
 .form-select-lg {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  padding-left: 1rem;
+  padding-left: 3rem;
   font-size: 1.25rem;
   border-radius: 0.3rem;
 }
@@ -2949,7 +2970,7 @@ textarea.form-control-lg {
 .input-group-lg > .form-select,
 .input-group-lg > .input-group-text,
 .input-group-lg > .btn {
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 3rem;
   font-size: 1.25rem;
   border-radius: 0.3rem;
 }
@@ -3846,7 +3867,7 @@ fieldset:disabled .btn {
 }
 
 .btn-lg, .btn-group-lg > .btn {
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 3rem;
   font-size: 1.25rem;
   border-radius: 0.3rem;
 }
@@ -4322,8 +4343,8 @@ fieldset:disabled .btn {
 }
 
 .btn-lg + .dropdown-toggle-split, .btn-group-lg > .btn + .dropdown-toggle-split {
-  padding-right: 0.75rem;
-  padding-left: 0.75rem;
+  padding-right: 2.25rem;
+  padding-left: 2.25rem;
 }
 
 .btn-group-vertical {
