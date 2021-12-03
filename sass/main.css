@@ -41,6 +41,10 @@
   color: black !important;
 }
 
+.card {
+  border: none !important;
+}
+
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
