@@ -7,7 +7,7 @@
 }
 
 .bg-body {
-  background-image: url("/klea/bg.png");
+  background-image: url("../klea/bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center bottom;
