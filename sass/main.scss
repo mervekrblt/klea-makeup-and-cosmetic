@@ -1,16 +1,23 @@
-.first-font {
-  font-family: hobo-std, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-}
-
-//$font-family-sans-serif: customFont;
-//$font-family-base: $font-family-sans-serif !default;
-
 $primary: #A0819D;
 $secondary: #764B72;
 $input-btn-padding-x-lg: 3rem;
 $input-placeholder-color: white;
+
+.first-font {
+  font-family: poppins,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.second-font {
+  font-family: hobo-std, sans-serif !important;
+  font-style: normal;
+  font-weight: 400;
+}
+
+img + span {
+  cursor: pointer;
+}
 
 .bg-body {
   background-image: url(../klea/bg.png);
@@ -38,7 +45,6 @@ $input-placeholder-color: white;
 .card {
   border: none !important;
 }
-
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 

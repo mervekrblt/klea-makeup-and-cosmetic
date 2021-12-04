@@ -1,7 +1,17 @@
 .first-font {
-  font-family: hobo-std, sans-serif;
+  font-family: poppins,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.second-font {
+  font-family: hobo-std, sans-serif !important;
   font-style: normal;
   font-weight: 400;
+}
+
+img + span {
+  cursor: pointer;
 }
 
 .bg-body {
